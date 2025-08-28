@@ -1,0 +1,974 @@
+[{
+  "_id": {
+    "$oid": "6849805f0099e450b042a488"
+  },
+  "subject": {
+    "$oid": "68497ded2f8a20773425b0d8"
+  },
+  "room_cls": null,
+  "day": null,
+  "startTime": "08:45",
+  "endTime": "09:00",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:10:55.863Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:10:55.863Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68498151d361e7111dadd4c6"
+  },
+  "subject": {
+    "$oid": "68498135d361e7111dadd4a0"
+  },
+  "room_cls": null,
+  "day": null,
+  "startTime": "10:10",
+  "endTime": "10:25",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:14:57.169Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:14:57.169Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68498186d361e7111dadd4ea"
+  },
+  "subject": {
+    "$oid": "68492e64edfba0ad203fa134"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Senin",
+  "startTime": "07:35",
+  "endTime": "08:10",
+  "guruId": {
+    "$oid": "6849732cab10fec02b728925"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T13:15:50.287Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:15:50.287Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6849819dd361e7111dadd50f"
+  },
+  "subject": {
+    "$oid": "68492e64edfba0ad203fa134"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Senin",
+  "startTime": "08:10",
+  "endTime": "08:45",
+  "guruId": {
+    "$oid": "6849732cab10fec02b728925"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T13:16:13.007Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:16:13.007Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684981ecd361e7111dadd543"
+  },
+  "subject": {
+    "$oid": "68492e69edfba0ad203fa139"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Senin",
+  "startTime": "09:00",
+  "endTime": "09:35",
+  "guruId": {
+    "$oid": "6849732cab10fec02b728925"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T13:17:32.695Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:17:32.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68498205d361e7111dadd568"
+  },
+  "subject": {
+    "$oid": "68492e69edfba0ad203fa139"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Senin",
+  "startTime": "09:35",
+  "endTime": "10:10",
+  "guruId": {
+    "$oid": "6849732cab10fec02b728925"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T13:17:57.895Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:17:57.895Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684982fbd361e7111dadd58d"
+  },
+  "subject": {
+    "$oid": "68492e69edfba0ad203fa139"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Senin",
+  "startTime": "10:25",
+  "endTime": "11:00",
+  "guruId": {
+    "$oid": "6849732cab10fec02b728925"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T13:22:03.161Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:22:03.161Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68498313d361e7111dadd5b2"
+  },
+  "subject": {
+    "$oid": "684938eef50cf64ec51415d1"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Senin",
+  "startTime": "11:00",
+  "endTime": "11:35",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:22:27.606Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:22:27.606Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6849832ed361e7111dadd5d7"
+  },
+  "subject": {
+    "$oid": "684938eef50cf64ec51415d1"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Senin",
+  "startTime": "11:35",
+  "endTime": "12:10",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:22:54.429Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:22:54.429Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684983efd361e7111dadd5fc"
+  },
+  "subject": {
+    "$oid": "68492e64edfba0ad203fa134"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Selasa",
+  "startTime": "07:00",
+  "endTime": "07:35",
+  "guruId": {
+    "$oid": "6849732cab10fec02b728925"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T13:26:07.111Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:26:07.111Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68498420d361e7111dadd621"
+  },
+  "subject": {
+    "$oid": "68492e64edfba0ad203fa134"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Selasa",
+  "startTime": "07:35",
+  "endTime": "08:10",
+  "guruId": {
+    "$oid": "6849732cab10fec02b728925"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T13:26:56.207Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:26:56.207Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6849848ed361e7111dadd690"
+  },
+  "subject": {
+    "$oid": "684938fef50cf64ec51415db"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Selasa",
+  "startTime": "09:35",
+  "endTime": "10:10",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:28:46.941Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:28:46.941Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684984a6d361e7111dadd6b5"
+  },
+  "subject": {
+    "$oid": "684938fef50cf64ec51415db"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Selasa",
+  "startTime": "10:25",
+  "endTime": "11:00",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:29:10.312Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:29:10.312Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684984bdd361e7111dadd6da"
+  },
+  "subject": {
+    "$oid": "6849390bf50cf64ec51415e0"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Selasa",
+  "startTime": "11:00",
+  "endTime": "11:35",
+  "guruId": {
+    "$oid": "6849732cab10fec02b728925"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T13:29:33.955Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:29:33.955Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684984cdd361e7111dadd6ff"
+  },
+  "subject": {
+    "$oid": "6849390bf50cf64ec51415e0"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Selasa",
+  "startTime": "11:35",
+  "endTime": "12:10",
+  "guruId": {
+    "$oid": "6849732cab10fec02b728925"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T13:29:49.156Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:29:49.156Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68498556d361e7111dadd77c"
+  },
+  "subject": {
+    "$oid": "68492e64edfba0ad203fa134"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Rabu",
+  "startTime": "07:00",
+  "endTime": "07:35",
+  "guruId": {
+    "$oid": "6849732cab10fec02b728925"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T13:32:06.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:32:06.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68498576d361e7111dadd7a1"
+  },
+  "subject": {
+    "$oid": "68493918f50cf64ec51415e5"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Rabu",
+  "startTime": "07:35",
+  "endTime": "08:10",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:32:38.048Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:32:38.048Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68498592d361e7111dadd7c6"
+  },
+  "subject": {
+    "$oid": "68493918f50cf64ec51415e5"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Rabu",
+  "startTime": "08:10",
+  "endTime": "08:45",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:33:06.468Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:33:06.468Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684985b0d361e7111dadd7eb"
+  },
+  "subject": {
+    "$oid": "6849391ef50cf64ec51415ea"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Rabu",
+  "startTime": "09:00",
+  "endTime": "09:35",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:33:36.827Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:33:36.827Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684985d2d361e7111dadd810"
+  },
+  "subject": {
+    "$oid": "6849391ef50cf64ec51415ea"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Rabu",
+  "startTime": "09:35",
+  "endTime": "10:10",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:34:10.824Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:34:10.824Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6849860ed361e7111dadd835"
+  },
+  "subject": {
+    "$oid": "68492e69edfba0ad203fa139"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Rabu",
+  "startTime": "10:25",
+  "endTime": "11:00",
+  "guruId": {
+    "$oid": "6849732cab10fec02b728925"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T13:35:10.856Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:35:10.856Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68498720d361e7111dadd85a"
+  },
+  "subject": {
+    "$oid": "68492e64edfba0ad203fa134"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Rabu",
+  "startTime": "11:00",
+  "endTime": "11:35",
+  "guruId": {
+    "$oid": "6849732cab10fec02b728925"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T13:39:44.347Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:39:44.347Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6849873ed361e7111dadd87f"
+  },
+  "subject": {
+    "$oid": "68492e64edfba0ad203fa134"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Rabu",
+  "startTime": "11:35",
+  "endTime": "12:10",
+  "guruId": {
+    "$oid": "6849732cab10fec02b728925"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T13:40:14.486Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:40:14.486Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68498772d361e7111dadd8a4"
+  },
+  "subject": {
+    "$oid": "68493926f50cf64ec51415ef"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Kamis",
+  "startTime": "07:00",
+  "endTime": "07:35",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:41:06.646Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:41:06.646Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68498789d361e7111dadd8c9"
+  },
+  "subject": {
+    "$oid": "68492e69edfba0ad203fa139"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Kamis",
+  "startTime": "07:35",
+  "endTime": "08:10",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:41:29.201Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:41:29.201Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68498799d361e7111dadd8ee"
+  },
+  "subject": {
+    "$oid": "68492e69edfba0ad203fa139"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Kamis",
+  "startTime": "08:10",
+  "endTime": "08:45",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:41:45.873Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:41:45.873Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684987b2d361e7111dadd913"
+  },
+  "subject": {
+    "$oid": "6849681b1d5d9b24184ad44d"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Kamis",
+  "startTime": "09:00",
+  "endTime": "09:35",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:42:10.400Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:42:10.400Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684987c1d361e7111dadd938"
+  },
+  "subject": {
+    "$oid": "6849681b1d5d9b24184ad44d"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Kamis",
+  "startTime": "09:35",
+  "endTime": "10:10",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:42:25.465Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:42:25.465Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684987d2d361e7111dadd95d"
+  },
+  "subject": {
+    "$oid": "6849390bf50cf64ec51415e0"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Kamis",
+  "startTime": "10:25",
+  "endTime": "11:00",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:42:42.213Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:42:42.213Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684987e6d361e7111dadd982"
+  },
+  "subject": {
+    "$oid": "6849393ff50cf64ec51415f9"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Kamis",
+  "startTime": "11:00",
+  "endTime": "11:35",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:43:02.993Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:43:02.993Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684987fad361e7111dadd9a7"
+  },
+  "subject": {
+    "$oid": "6849393ff50cf64ec51415f9"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Kamis",
+  "startTime": "11:35",
+  "endTime": "12:10",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:43:22.232Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:43:22.232Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6849882ad361e7111dadd9cc"
+  },
+  "subject": {
+    "$oid": "68492e64edfba0ad203fa134"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Jumat",
+  "startTime": "07:00",
+  "endTime": "07:35",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:44:10.647Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:44:10.647Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6849883cd361e7111dadd9f1"
+  },
+  "subject": {
+    "$oid": "68492e64edfba0ad203fa134"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Jumat",
+  "startTime": "07:35",
+  "endTime": "08:10",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:44:28.035Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:44:28.035Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6849884cd361e7111dadda16"
+  },
+  "subject": {
+    "$oid": "68492e64edfba0ad203fa134"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Jumat",
+  "startTime": "08:10",
+  "endTime": "08:45",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:44:44.543Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:44:44.543Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68498864d361e7111dadda3b"
+  },
+  "subject": {
+    "$oid": "68493952f50cf64ec51415fe"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Jumat",
+  "startTime": "09:00",
+  "endTime": "09:35",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:45:08.556Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:45:08.556Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68498877d361e7111dadda60"
+  },
+  "subject": {
+    "$oid": "684938fef50cf64ec51415db"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Jumat",
+  "startTime": "09:35",
+  "endTime": "10:10",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:45:27.543Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:45:27.543Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6849888ad361e7111dadda85"
+  },
+  "subject": {
+    "$oid": "6849390bf50cf64ec51415e0"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Jumat",
+  "startTime": "10:25",
+  "endTime": "11:00",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:45:46.835Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:45:46.835Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684988aed361e7111daddaaa"
+  },
+  "subject": {
+    "$oid": "68492e69edfba0ad203fa139"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Jumat",
+  "startTime": "11:00",
+  "endTime": "11:35",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:46:22.290Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:46:22.290Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684988d3d361e7111daddaf7"
+  },
+  "subject": {
+    "$oid": "68492e69edfba0ad203fa139"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Jumat",
+  "startTime": "11:35",
+  "endTime": "12:10",
+  "guruId": null,
+  "createdAt": {
+    "$date": "2025-06-11T13:46:59.198Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:46:59.198Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684bbceb8f28f4798950911e"
+  },
+  "subject": {
+    "$oid": "68492e64edfba0ad203fa134"
+  },
+  "room_cls": {
+    "$oid": "68497aa2cb7ba55f3d8bac21"
+  },
+  "day": "Senin",
+  "startTime": "07:30",
+  "endTime": "08:00",
+  "guruId": null,
+  "isExam": false,
+  "examType": "",
+  "createdAt": {
+    "$date": "2025-06-13T05:53:47.976Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T05:53:47.976Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684e79da1d262c9a716ebf74"
+  },
+  "subject": {
+    "$oid": "684981bdd361e7111dadd51c"
+  },
+  "room_cls": null,
+  "day": "Senin",
+  "startTime": "07:00",
+  "endTime": "07:35",
+  "guruId": null,
+  "isExam": false,
+  "examType": "",
+  "createdAt": {
+    "$date": "2025-06-15T07:44:26.723Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T07:44:26.723Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686b80a96f4198a040fbd7f6"
+  },
+  "subject": {
+    "$oid": "684938f4f50cf64ec51415d6"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Selasa",
+  "startTime": "08:10",
+  "endTime": "08:45",
+  "guruId": null,
+  "isExam": false,
+  "examType": "",
+  "createdAt": {
+    "$date": "2025-07-07T08:09:13.939Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-07T08:09:13.939Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686ce1b46d1f1e18257ef5fb"
+  },
+  "subject": {
+    "$oid": "684938f4f50cf64ec51415d6"
+  },
+  "room_cls": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "day": "Selasa",
+  "startTime": "09:00",
+  "endTime": "09:35",
+  "guruId": null,
+  "isExam": false,
+  "examType": "",
+  "createdAt": {
+    "$date": "2025-07-08T09:15:32.118Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-08T09:15:32.118Z"
+  },
+  "__v": 0
+}]

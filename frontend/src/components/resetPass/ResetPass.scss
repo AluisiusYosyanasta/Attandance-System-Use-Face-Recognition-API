@@ -1,0 +1,254 @@
+@use '../../loginRes.scss' as*;
+
+.resetpassPage{
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 7px 50px rgb(214, 223, 213);
+
+    .container{
+        position: relative;
+        height: 90vh;
+        width: 60%;
+        margin: auto;
+        justify-content: space-between;
+        border-radius: 10px;
+        background: #f1f1f1;
+    }
+
+    .buttonBack{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        display: flex;
+        gap: .2rem;
+        cursor: pointer;
+        .icon{
+            color: var(--primaryColor);
+        }
+        a{
+            color: var(--primaryColor);
+        }
+
+        &:hover{
+            transform: translateX(-3px);
+            transition: transform 0.3s ease-in-out; 
+        }
+        &:active{
+            transform: translateX(1px);
+            transition: transform 0.2s ease-in-out;
+        }
+    }
+    
+    .formDiv{
+        flex-basis: 50%;
+        margin: auto;
+        flex-direction: column;
+        gap: .5rem;
+        transform: translateY(-0.5rem);
+
+        .headerDiv{
+            text-align: center;
+            padding: 1rem;
+
+            img{
+                width: 150px;
+                border-radius: 20px;
+                margin: 0 auto;
+            }
+
+            h3{
+                font-size: 25px;
+                color: var(--blackColor);
+                font-weight: 600;
+            }
+
+            p{
+                font-size: 13px;
+                padding-top: .5rem;
+            }
+        }
+
+        .form{
+            gap: 1rem;
+
+            .inputDiv{
+                .icon{
+                    color: var(--greyText);
+                }
+
+                input{
+                    background: none;
+                    outline: none;
+                    border: none;
+                    width: 350px;
+                }
+
+                label{
+                    color: var(--blackColor);
+                    font-weight: 400;
+                    font-size: 14px;
+                    padding: .5rem 0;
+                    display: block;
+                }
+                .input{
+                    gap: .5rem;
+                    padding: 1rem;
+                    background: var(--inputColor);
+                    border-radius: 10px;
+                }
+                .errorText {
+                    color: red;
+                    font-size: 10px;
+                    max-width: 350px;
+                    margin-top: 4px;
+                }
+            }
+            .btn{
+                padding: .8rem;
+                background: var(--primaryColor);
+                border-radius: 10px;
+                color: var(--whiteColor);
+                align-items: center;
+                margin: auto;
+                justify-content: center;
+                font-size: 16px;
+                width: 100%;
+                gap: .5rem;
+                transition: .3s ease;
+
+                .icon{
+                    font-size: 25px;
+                    opacity: .7;
+                    transition: .3s ease;
+                }
+
+                &:hover{
+                    background: var(--hoverColor);
+                    color: var(--blackColor);
+
+                    .icon{
+                        color: var(--blackColor);
+                        transform: translateX(5px);
+                    }
+                }
+            }
+        }
+    }    
+}
+
+.dashboard{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+
+    .dashboardContainer{
+        height: 95vh;
+        width: 95%;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 5px 10px rgb(194, 194, 194);
+    }
+}
+
+@media screen and (max-width: 680px){
+    .resetpassPage{
+        .container{
+            flex-direction: column;
+            padding: 1.5rem;
+
+            .formDiv{
+                gap: 1rem;
+                transform: translateY(-.5rem);
+                
+                .headerDiv{
+                    padding: 1rem 0;
+                    img{
+                        width: 40%;
+                    }
+
+                    h3{
+                        font-size: 18px;
+                    }
+                    p{
+                        font-size: 10px;
+                    }
+                }
+
+                .form{
+                    gap: .5rem;
+                    width: 100%;
+                    .inputDiv{
+                        input{
+                            font-size: 14px;
+                            width: 100%;
+                        }
+                        select{
+                            width: 100%;
+                        }
+                    }
+                    .btn{
+                            font-size: 14px;
+                            .icon{
+                                font-size: 20px;
+                            }
+                        }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .resetpassPage{
+        .container{
+            flex-direction: column;
+            padding: 1.5rem;
+
+            .formDiv{
+                gap: 1rem;
+                transform: translateY(-.5rem);
+                
+                .headerDiv{
+                    padding: 1rem 0;
+                    img{
+                        width: 40%;
+                    }
+
+                    h3{
+                        font-size: 13px;
+                    }
+                    p{
+                        font-size: 9px;
+                    }
+                }
+
+                .form{
+                    gap: .5rem;
+                    width: 100%;
+                    .inputDiv{
+                        input{
+                            font-size: 12px;
+                            width: 100%;
+                        }
+                        select{
+                            width: 100%;
+                        }
+                    }
+                    .btn{
+                            font-size: 12px;
+                            .icon{
+                                font-size: 18px;
+                            }
+                        }
+                }
+            }
+        }
+    }
+}
+
+
+

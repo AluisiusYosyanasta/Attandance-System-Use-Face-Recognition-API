@@ -1,0 +1,225 @@
+[{
+  "_id": {
+    "$oid": "68492e64edfba0ad203fa134"
+  },
+  "sub_code": "MAT986",
+  "sub_name": "MATEMATIKA",
+  "description": "",
+  "createdAt": {
+    "$date": "2025-06-11T07:21:08.343Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T07:21:08.343Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68492e69edfba0ad203fa139"
+  },
+  "sub_code": "BAH163",
+  "sub_name": "BAHASA INDONESIA",
+  "description": "",
+  "createdAt": {
+    "$date": "2025-06-11T07:21:13.083Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T07:21:13.083Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684938eef50cf64ec51415d1"
+  },
+  "sub_code": "TIK595",
+  "sub_name": "TIK",
+  "description": "",
+  "createdAt": {
+    "$date": "2025-06-11T08:06:06.502Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T08:06:06.502Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684938f4f50cf64ec51415d6"
+  },
+  "sub_code": "AGA909",
+  "sub_name": "AGAMA",
+  "description": "",
+  "createdAt": {
+    "$date": "2025-06-11T08:06:12.186Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T08:06:12.186Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684938fef50cf64ec51415db"
+  },
+  "sub_code": "PS685",
+  "sub_name": "PS",
+  "description": "",
+  "createdAt": {
+    "$date": "2025-06-11T08:06:22.430Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T08:06:22.430Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6849390bf50cf64ec51415e0"
+  },
+  "sub_code": "PEN932",
+  "sub_name": "PENDIDIKAN PANCASILA",
+  "description": "",
+  "createdAt": {
+    "$date": "2025-06-11T08:06:35.429Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T08:06:35.429Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68493918f50cf64ec51415e5"
+  },
+  "sub_code": "BAH412",
+  "sub_name": "BAHASA INGGRIS",
+  "description": "",
+  "createdAt": {
+    "$date": "2025-06-11T08:06:48.041Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T08:06:48.041Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6849391ef50cf64ec51415ea"
+  },
+  "sub_code": "PLB434",
+  "sub_name": "PLBJ",
+  "description": "",
+  "createdAt": {
+    "$date": "2025-06-11T08:06:54.270Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T08:06:54.270Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68493926f50cf64ec51415ef"
+  },
+  "sub_code": "MAN974",
+  "sub_name": "MANDARIN",
+  "description": "",
+  "createdAt": {
+    "$date": "2025-06-11T08:07:02.719Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T08:07:02.719Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6849393ff50cf64ec51415f9"
+  },
+  "sub_code": "SEN339",
+  "sub_name": "SENI RUPA",
+  "description": "",
+  "createdAt": {
+    "$date": "2025-06-11T08:07:27.745Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T08:07:27.745Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68493952f50cf64ec51415fe"
+  },
+  "sub_code": "PS/708",
+  "sub_name": "PS/GARIS TIGA",
+  "description": "",
+  "createdAt": {
+    "$date": "2025-06-11T08:07:46.846Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T08:07:46.846Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6849681b1d5d9b24184ad44d"
+  },
+  "sub_code": "PJO426",
+  "sub_name": "PJOK",
+  "description": "",
+  "createdAt": {
+    "$date": "2025-06-11T11:27:23.853Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T11:27:23.853Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68497ded2f8a20773425b0d8"
+  },
+  "sub_code": "IST784",
+  "sub_name": "ISTIRAHAT",
+  "description": "",
+  "createdAt": {
+    "$date": "2025-06-11T13:00:29.964Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:00:29.964Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68498135d361e7111dadd4a0"
+  },
+  "sub_code": "IST401",
+  "sub_name": "ISTIRAHAT 2",
+  "description": "",
+  "createdAt": {
+    "$date": "2025-06-11T13:14:29.257Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:14:29.257Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684981bdd361e7111dadd51c"
+  },
+  "sub_code": "UPA183",
+  "sub_name": "UPACARA",
+  "description": "",
+  "createdAt": {
+    "$date": "2025-06-11T13:16:45.015Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T13:16:45.015Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,476 @@
+[{
+  "_id": {
+    "$oid": "6846e23e0a91e4b9035d9772"
+  },
+  "userId": {
+    "$oid": "6846e23e0a91e4b9035d976f"
+  },
+  "guruId": "A-001",
+  "dob_city": "Jakarta",
+  "dob": {
+    "$date": "2003-06-26T17:00:00.000Z"
+  },
+  "gender": "Laki-Laki",
+  "title": "SMA",
+  "position": "Admin",
+  "staGuru": "Tidak Tetap",
+  "subject": [
+    {
+      "$oid": "68413b8ecfc1c0f47c6248bd"
+    }
+  ],
+  "createAt": {
+    "$date": "2025-06-09T13:31:42.396Z"
+  },
+  "updateAt": {
+    "$date": "2025-06-09T13:31:42.396Z"
+  },
+  "__v": 0,
+  "edu_level": "SMP"
+},
+{
+  "_id": {
+    "$oid": "684972bbab10fec02b728905"
+  },
+  "userId": {
+    "$oid": "684972bbab10fec02b728902"
+  },
+  "guruId": "A-002",
+  "dob_city": "Cirebon",
+  "dob": {
+    "$date": {
+      "$numberLong": "-525337200000"
+    }
+  },
+  "gender": "Perempuan",
+  "title": "S.Pd.",
+  "position": "Kepala Sekolah",
+  "staGuru": "Tetap",
+  "subject": [],
+  "createAt": {
+    "$date": "2025-06-11T12:12:43.597Z"
+  },
+  "updateAt": {
+    "$date": "2025-06-11T12:12:43.597Z"
+  },
+  "__v": 0,
+  "edu_level": "SD"
+},
+{
+  "_id": {
+    "$oid": "6849732cab10fec02b728925"
+  },
+  "userId": {
+    "$oid": "6849732cab10fec02b728922"
+  },
+  "guruId": "G-001",
+  "dob_city": "Yogyakarta",
+  "dob": {
+    "$date": {
+      "$numberLong": "-82710000000"
+    }
+  },
+  "gender": "Perempuan",
+  "title": "S.Pd.",
+  "position": "Wakil Kepala Sekolah",
+  "staGuru": "Tetap",
+  "subject": [
+    {
+      "$oid": "68492e64edfba0ad203fa134"
+    },
+    {
+      "$oid": "68492e69edfba0ad203fa139"
+    },
+    {
+      "$oid": "6849390bf50cf64ec51415e0"
+    }
+  ],
+  "createAt": {
+    "$date": "2025-06-11T12:14:36.666Z"
+  },
+  "updateAt": {
+    "$date": "2025-06-11T12:14:36.666Z"
+  },
+  "__v": 0,
+  "edu_level": "SD"
+},
+{
+  "_id": {
+    "$oid": "68497388ab10fec02b728935"
+  },
+  "userId": {
+    "$oid": "68497388ab10fec02b728932"
+  },
+  "guruId": "G-002",
+  "dob_city": "Pamulang",
+  "dob": {
+    "$date": "1972-03-25T17:00:00.000Z"
+  },
+  "gender": "Perempuan",
+  "title": "S.PG.",
+  "position": "Guru",
+  "staGuru": "Tetap",
+  "subject": [],
+  "createAt": {
+    "$date": "2025-06-11T12:16:08.011Z"
+  },
+  "updateAt": {
+    "$date": "2025-06-11T12:16:08.011Z"
+  },
+  "__v": 0,
+  "edu_level": "SD"
+},
+{
+  "_id": {
+    "$oid": "68497526ab10fec02b72895d"
+  },
+  "userId": {
+    "$oid": "68497526ab10fec02b72895a"
+  },
+  "guruId": "G-003",
+  "dob_city": "Jakarta",
+  "dob": {
+    "$date": "1970-04-30T17:00:00.000Z"
+  },
+  "gender": "Perempuan",
+  "title": "S.Pd.",
+  "position": "Guru",
+  "staGuru": "Tetap",
+  "subject": [
+    {
+      "$oid": "68492e64edfba0ad203fa134"
+    }
+  ],
+  "createAt": {
+    "$date": "2025-06-11T12:23:02.459Z"
+  },
+  "updateAt": {
+    "$date": "2025-06-11T12:23:02.459Z"
+  },
+  "__v": 0,
+  "edu_level": "SD"
+},
+{
+  "_id": {
+    "$oid": "68497637ab10fec02b728988"
+  },
+  "userId": {
+    "$oid": "68497637ab10fec02b728985"
+  },
+  "guruId": "G-004",
+  "dob_city": "Yogyakarta",
+  "dob": {
+    "$date": {
+      "$numberLong": "-202287600000"
+    }
+  },
+  "gender": "Perempuan",
+  "title": "S.Pd.",
+  "position": "Guru",
+  "staGuru": "Tetap",
+  "subject": [],
+  "createAt": {
+    "$date": "2025-06-11T12:27:35.683Z"
+  },
+  "updateAt": {
+    "$date": "2025-06-11T12:27:35.683Z"
+  },
+  "__v": 0,
+  "edu_level": "SD"
+},
+{
+  "_id": {
+    "$oid": "6849767cab10fec02b72899b"
+  },
+  "userId": {
+    "$oid": "6849767cab10fec02b728998"
+  },
+  "guruId": "G-005",
+  "dob_city": "Jakarta",
+  "dob": {
+    "$date": {
+      "$numberLong": "-39596400000"
+    }
+  },
+  "gender": "Perempuan",
+  "title": "S.Pd.",
+  "position": "Guru",
+  "staGuru": "Tetap",
+  "subject": [],
+  "createAt": {
+    "$date": "2025-06-11T12:28:44.174Z"
+  },
+  "updateAt": {
+    "$date": "2025-06-11T12:28:44.174Z"
+  },
+  "__v": 0,
+  "edu_level": "SD"
+},
+{
+  "_id": {
+    "$oid": "684976acab10fec02b7289af"
+  },
+  "userId": {
+    "$oid": "684976acab10fec02b7289ac"
+  },
+  "guruId": "G-006",
+  "dob_city": "Jaka",
+  "dob": {
+    "$date": "1980-04-09T17:00:00.000Z"
+  },
+  "gender": "Laki-Laki",
+  "title": "SMA",
+  "position": "Guru",
+  "staGuru": "Tetap",
+  "subject": [],
+  "createAt": {
+    "$date": "2025-06-11T12:29:32.863Z"
+  },
+  "updateAt": {
+    "$date": "2025-06-11T12:29:32.863Z"
+  },
+  "__v": 0,
+  "edu_level": "SD"
+},
+{
+  "_id": {
+    "$oid": "684976e8ab10fec02b7289c4"
+  },
+  "userId": {
+    "$oid": "684976e8ab10fec02b7289c1"
+  },
+  "guruId": "G-007",
+  "dob_city": "Jakarta",
+  "dob": {
+    "$date": "1972-05-16T17:00:00.000Z"
+  },
+  "gender": "Laki-Laki",
+  "title": "SMK",
+  "position": "Guru",
+  "staGuru": "Tidak Tetap",
+  "subject": [],
+  "createAt": {
+    "$date": "2025-06-11T12:30:32.175Z"
+  },
+  "updateAt": {
+    "$date": "2025-06-11T12:30:32.175Z"
+  },
+  "__v": 0,
+  "edu_level": "SD"
+},
+{
+  "_id": {
+    "$oid": "68497715ab10fec02b7289da"
+  },
+  "userId": {
+    "$oid": "68497715ab10fec02b7289d7"
+  },
+  "guruId": "G-008",
+  "dob_city": "Jakarta",
+  "dob": {
+    "$date": "1981-11-23T17:00:00.000Z"
+  },
+  "gender": "Laki-Laki",
+  "title": "AMIK",
+  "position": "Guru",
+  "staGuru": "Tetap",
+  "subject": [],
+  "createAt": {
+    "$date": "2025-06-11T12:31:17.229Z"
+  },
+  "updateAt": {
+    "$date": "2025-06-11T12:31:17.229Z"
+  },
+  "__v": 0,
+  "edu_level": "SD"
+},
+{
+  "_id": {
+    "$oid": "684977b7ab10fec02b7289f1"
+  },
+  "userId": {
+    "$oid": "684977b7ab10fec02b7289ee"
+  },
+  "guruId": "G-009",
+  "dob_city": "Nam",
+  "dob": {
+    "$date": "1991-10-31T17:00:00.000Z"
+  },
+  "gender": "Perempuan",
+  "title": "S.Pd.K",
+  "position": "Guru",
+  "staGuru": "Tidak Tetap",
+  "subject": [],
+  "createAt": {
+    "$date": "2025-06-11T12:33:59.346Z"
+  },
+  "updateAt": {
+    "$date": "2025-06-11T12:33:59.346Z"
+  },
+  "__v": 0,
+  "edu_level": "SD"
+},
+{
+  "_id": {
+    "$oid": "68497808ab10fec02b728a47"
+  },
+  "userId": {
+    "$oid": "68497808ab10fec02b728a44"
+  },
+  "guruId": "G-010",
+  "dob_city": "Jakarta",
+  "dob": {
+    "$date": "1996-05-12T17:00:00.000Z"
+  },
+  "gender": "Perempuan",
+  "title": "S.Pd.",
+  "position": "Guru",
+  "staGuru": "Tetap",
+  "subject": [],
+  "createAt": {
+    "$date": "2025-06-11T12:35:20.157Z"
+  },
+  "updateAt": {
+    "$date": "2025-06-11T12:35:20.157Z"
+  },
+  "__v": 0,
+  "edu_level": "SD"
+},
+{
+  "_id": {
+    "$oid": "68497861ab10fec02b728a60"
+  },
+  "userId": {
+    "$oid": "68497861ab10fec02b728a5d"
+  },
+  "guruId": "G-011",
+  "dob_city": "Tangerang",
+  "dob": {
+    "$date": "1997-03-17T17:00:00.000Z"
+  },
+  "gender": "Laki-Laki",
+  "title": "S.Pd.",
+  "position": "Guru",
+  "staGuru": "Tidak Tetap",
+  "subject": [],
+  "createAt": {
+    "$date": "2025-06-11T12:36:49.407Z"
+  },
+  "updateAt": {
+    "$date": "2025-06-11T12:36:49.407Z"
+  },
+  "__v": 0,
+  "edu_level": "SD"
+},
+{
+  "_id": {
+    "$oid": "684978b5ab10fec02b728a7a"
+  },
+  "userId": {
+    "$oid": "684978b5ab10fec02b728a77"
+  },
+  "guruId": "G-012",
+  "dob_city": "Jambi",
+  "dob": {
+    "$date": {
+      "$numberLong": "-11430000000"
+    }
+  },
+  "gender": "Perempuan",
+  "title": "SI",
+  "position": "Guru",
+  "staGuru": "Tidak Tetap",
+  "subject": [],
+  "createAt": {
+    "$date": "2025-06-11T12:38:13.111Z"
+  },
+  "updateAt": {
+    "$date": "2025-06-11T12:38:13.111Z"
+  },
+  "__v": 0,
+  "edu_level": "SD"
+},
+{
+  "_id": {
+    "$oid": "684978f9ab10fec02b728a95"
+  },
+  "userId": {
+    "$oid": "684978f9ab10fec02b728a92"
+  },
+  "guruId": "G-013",
+  "dob_city": "Purwokerto",
+  "dob": {
+    "$date": "1988-09-21T17:00:00.000Z"
+  },
+  "gender": "Laki-Laki",
+  "title": "S.Pd.",
+  "position": "Guru",
+  "staGuru": "Tidak Tetap",
+  "subject": [],
+  "createAt": {
+    "$date": "2025-06-11T12:39:21.154Z"
+  },
+  "updateAt": {
+    "$date": "2025-06-11T12:39:21.154Z"
+  },
+  "__v": 0,
+  "edu_level": "SD"
+},
+{
+  "_id": {
+    "$oid": "68497926ab10fec02b728ab1"
+  },
+  "userId": {
+    "$oid": "68497926ab10fec02b728aae"
+  },
+  "guruId": "A-003",
+  "dob_city": "Jakarta",
+  "dob": {
+    "$date": {
+      "$numberLong": "-76316400000"
+    }
+  },
+  "gender": "Perempuan",
+  "title": "SMEA",
+  "position": "Tata Usaha",
+  "staGuru": "Tetap",
+  "subject": [],
+  "createAt": {
+    "$date": "2025-06-11T12:40:06.283Z"
+  },
+  "updateAt": {
+    "$date": "2025-06-11T12:40:06.283Z"
+  },
+  "__v": 0,
+  "edu_level": "SD"
+},
+{
+  "_id": {
+    "$oid": "686ce4db6d1f1e18257ef720"
+  },
+  "userId": {
+    "$oid": "686ce4db6d1f1e18257ef71d"
+  },
+  "guruId": "G-014",
+  "dob_city": "Jakarta",
+  "dob": {
+    "$date": "2025-07-07T17:00:00.000Z"
+  },
+  "gender": "Laki-Laki",
+  "title": "S.Pd.",
+  "position": "Guru",
+  "staGuru": "Tetap",
+  "subject": [
+    {
+      "$oid": "684938f4f50cf64ec51415d6"
+    }
+  ],
+  "edu_level": "SMP",
+  "createAt": {
+    "$date": "2025-07-08T09:28:59.777Z"
+  },
+  "updateAt": {
+    "$date": "2025-07-08T09:28:59.777Z"
+  },
+  "__v": 0
+}]
