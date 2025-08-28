@@ -1,0 +1,148 @@
+[{
+  "_id": {
+    "$oid": "684e65071d262c9a716eb8ab"
+  },
+  "roomId": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "nik": "1609",
+  "name": "Alfreed Xavier",
+  "gender": "L",
+  "dob": "2017-07-13T17:00:00.000Z",
+  "religion": "Kristen Protestan",
+  "address": "Teluk Gong, Jalan Teri Raya no 29 06/012 Jakarta",
+  "parentStd": "Ade Saputra / Yeni",
+  "parentJob": "Karyawan",
+  "createdAt": {
+    "$date": "2025-06-15T06:15:35.916Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-20T08:34:56.418Z"
+  },
+  "__v": 14,
+  "faceEnrolled": false,
+  "faceImagePath": null
+},
+{
+  "_id": {
+    "$oid": "684e65071d262c9a716eb8ac"
+  },
+  "roomId": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "nik": "1610",
+  "name": "Adelia Tanisha O.",
+  "gender": "P",
+  "dob": "2017-10-08T17:00:00.000Z",
+  "religion": "Islam",
+  "address": "Jalan Cemara Raya 14 09/08 DK, Cengkareng",
+  "parentStd": "Nurhadi / Dahlia",
+  "parentJob": "Karyawan",
+  "createdAt": {
+    "$date": "2025-06-15T06:15:35.917Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-16T10:59:26.442Z"
+  },
+  "__v": 1,
+  "photoEncodings": [],
+  "faceEnrolled": true,
+  "faceImagePath": "/images/Adelia Tanisha O._1751969236667.jpg"
+},
+{
+  "_id": {
+    "$oid": "684e68511d262c9a716eb9a2"
+  },
+  "roomId": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "nik": "1611",
+  "name": "Cassandra Elvery R",
+  "gender": "P",
+  "dob": "2018-10-16T17:00:00.000Z",
+  "religion": "Kristen Protestan",
+  "address": "Jalan Mahoni Hijau VI F.7 No.3, DK, Cengkareng",
+  "parentStd": "Chandra / Eliani",
+  "parentJob": "Karyawan",
+  "createdAt": {
+    "$date": "2025-06-15T06:29:37.781Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T06:29:37.781Z"
+  },
+  "__v": 0,
+  "faceEnrolled": false
+},
+{
+  "_id": {
+    "$oid": "684e712f1d262c9a716ebd0b"
+  },
+  "roomId": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "nik": "1612",
+  "name": "Clarissa Naomi T",
+  "gender": "P",
+  "dob": "2018-05-08T17:00:00.000Z",
+  "religion": "Kristen Protestan",
+  "address": "Semanan 08/12 DK, Cengkareng",
+  "parentStd": "Yustinus / Filiani Lase",
+  "parentJob": "Wiraswasta",
+  "createdAt": {
+    "$date": "2025-06-15T07:07:27.218Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T07:07:27.218Z"
+  },
+  "__v": 0,
+  "faceEnrolled": false
+},
+{
+  "_id": {
+    "$oid": "684e712f1d262c9a716ebd0c"
+  },
+  "roomId": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "nik": "1613",
+  "name": "Gelbert Hezekiel",
+  "gender": "L",
+  "dob": "2017-04-16T17:00:00.000Z",
+  "religion": "Kristen Protestan",
+  "address": "Kresek Indah N/24 03/12, DK, Cengkareng",
+  "parentStd": "Erwin / Lita Wiebu",
+  "parentJob": "Karyawan",
+  "createdAt": {
+    "$date": "2025-06-15T07:07:27.218Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T07:07:27.218Z"
+  },
+  "__v": 0,
+  "faceEnrolled": false
+},
+{
+  "_id": {
+    "$oid": "685a79d4e8b9a1d795f03f65"
+  },
+  "roomId": {
+    "$oid": "68497aa2cb7ba55f3d8bac21"
+  },
+  "nik": "123",
+  "name": "asd",
+  "gender": "L",
+  "dob": "2025-06-23T17:00:00.000Z",
+  "religion": "Islam",
+  "address": "asd",
+  "parentStd": "asd",
+  "parentJob": "asd",
+  "faceEnrolled": false,
+  "faceImagePath": null,
+  "createdAt": {
+    "$date": "2025-06-24T10:11:32.561Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-24T10:11:32.561Z"
+  },
+  "__v": 0
+}]

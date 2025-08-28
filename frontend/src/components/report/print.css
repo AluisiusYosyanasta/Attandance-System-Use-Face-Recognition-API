@@ -1,0 +1,28 @@
+@media print {
+  .page-break {
+    page-break-inside: auto;
+    page-break-before: auto;
+    page-break-after: auto;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr {
+    page-break-inside: avoid;
+  }
+
+  .break-inside-auto {
+    break-inside: auto;
+  }
+
+  .break-inside-avoid {
+    break-inside: avoid;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

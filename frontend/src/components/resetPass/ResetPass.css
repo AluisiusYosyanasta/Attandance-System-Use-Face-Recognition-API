@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --primaryColor: hsl(207, 73%, 47%);
+  --hoverColor: hsl(207, 73%, 37%);
+  --paleBlue: hsl(207, 75%, 89%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --greyText: hsl(0, 0%, 75%);
+  --bgColor: hsl(113, 11%, 85%);
+  --inputColor: hsl(330, 12%, 97%);
+  --biggestFontsize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+html {
+  font-size: 90%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.icon {
+  font-size: var(--h2FontSize);
+  cursor: pointer;
+}
+
+img,
+video {
+  height: auto;
+  width: 100%;
+}
+
+.message {
+  display: none;
+}
+
+.showMessage {
+  display: block;
+  color: var(--whiteColor);
+  padding: 10px;
+  background: rgb(255, 0, 0);
+  border-radius: 3px;
+  text-align: center;
+  animation: shake 1s ease-in-out;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  75% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  color: var(--greyText);
+}
+
+.btn .icon {
+  margin-left: 0.5rem;
+}
+
+.btn:hover {
+  color: var(--primaryColor);
+  background: var(--paleBlue);
+}
+
+.resetpassPage {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 7px 50px rgb(214, 223, 213);
+}
+.resetpassPage .container {
+  position: relative;
+  height: 90vh;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+  border-radius: 10px;
+  background: #f1f1f1;
+}
+.resetpassPage .buttonBack {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  display: flex;
+  gap: 0.2rem;
+  cursor: pointer;
+}
+.resetpassPage .buttonBack .icon {
+  color: var(--primaryColor);
+}
+.resetpassPage .buttonBack a {
+  color: var(--primaryColor);
+}
+.resetpassPage .buttonBack:hover {
+  transform: translateX(-3px);
+  transition: transform 0.3s ease-in-out;
+}
+.resetpassPage .buttonBack:active {
+  transform: translateX(1px);
+  transition: transform 0.2s ease-in-out;
+}
+.resetpassPage .formDiv {
+  flex-basis: 50%;
+  margin: auto;
+  flex-direction: column;
+  gap: 0.5rem;
+  transform: translateY(-0.5rem);
+}
+.resetpassPage .formDiv .headerDiv {
+  text-align: center;
+  padding: 1rem;
+}
+.resetpassPage .formDiv .headerDiv img {
+  width: 150px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.resetpassPage .formDiv .headerDiv h3 {
+  font-size: 25px;
+  color: var(--blackColor);
+  font-weight: 600;
+}
+.resetpassPage .formDiv .headerDiv p {
+  font-size: 13px;
+  padding-top: 0.5rem;
+}
+.resetpassPage .formDiv .form {
+  gap: 1rem;
+}
+.resetpassPage .formDiv .form .inputDiv .icon {
+  color: var(--greyText);
+}
+.resetpassPage .formDiv .form .inputDiv input {
+  background: none;
+  outline: none;
+  border: none;
+  width: 350px;
+}
+.resetpassPage .formDiv .form .inputDiv label {
+  color: var(--blackColor);
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0.5rem 0;
+  display: block;
+}
+.resetpassPage .formDiv .form .inputDiv .input {
+  gap: 0.5rem;
+  padding: 1rem;
+  background: var(--inputColor);
+  border-radius: 10px;
+}
+.resetpassPage .formDiv .form .inputDiv .errorText {
+  color: red;
+  font-size: 10px;
+  max-width: 350px;
+  margin-top: 4px;
+}
+.resetpassPage .formDiv .form .btn {
+  padding: 0.8rem;
+  background: var(--primaryColor);
+  border-radius: 10px;
+  color: var(--whiteColor);
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  font-size: 16px;
+  width: 100%;
+  gap: 0.5rem;
+  transition: 0.3s ease;
+}
+.resetpassPage .formDiv .form .btn .icon {
+  font-size: 25px;
+  opacity: 0.7;
+  transition: 0.3s ease;
+}
+.resetpassPage .formDiv .form .btn:hover {
+  background: var(--hoverColor);
+  color: var(--blackColor);
+}
+.resetpassPage .formDiv .form .btn:hover .icon {
+  color: var(--blackColor);
+  transform: translateX(5px);
+}
+
+.dashboard {
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+}
+.dashboard .dashboardContainer {
+  height: 95vh;
+  width: 95%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgb(194, 194, 194);
+}
+
+@media screen and (max-width: 680px) {
+  .resetpassPage .container {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+  .resetpassPage .container .formDiv {
+    gap: 1rem;
+    transform: translateY(-0.5rem);
+  }
+  .resetpassPage .container .formDiv .headerDiv {
+    padding: 1rem 0;
+  }
+  .resetpassPage .container .formDiv .headerDiv img {
+    width: 40%;
+  }
+  .resetpassPage .container .formDiv .headerDiv h3 {
+    font-size: 18px;
+  }
+  .resetpassPage .container .formDiv .headerDiv p {
+    font-size: 10px;
+  }
+  .resetpassPage .container .formDiv .form {
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .resetpassPage .container .formDiv .form .inputDiv input {
+    font-size: 14px;
+    width: 100%;
+  }
+  .resetpassPage .container .formDiv .form .inputDiv select {
+    width: 100%;
+  }
+  .resetpassPage .container .formDiv .form .btn {
+    font-size: 14px;
+  }
+  .resetpassPage .container .formDiv .form .btn .icon {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .resetpassPage .container {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+  .resetpassPage .container .formDiv {
+    gap: 1rem;
+    transform: translateY(-0.5rem);
+  }
+  .resetpassPage .container .formDiv .headerDiv {
+    padding: 1rem 0;
+  }
+  .resetpassPage .container .formDiv .headerDiv img {
+    width: 40%;
+  }
+  .resetpassPage .container .formDiv .headerDiv h3 {
+    font-size: 13px;
+  }
+  .resetpassPage .container .formDiv .headerDiv p {
+    font-size: 9px;
+  }
+  .resetpassPage .container .formDiv .form {
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .resetpassPage .container .formDiv .form .inputDiv input {
+    font-size: 12px;
+    width: 100%;
+  }
+  .resetpassPage .container .formDiv .form .inputDiv select {
+    width: 100%;
+  }
+  .resetpassPage .container .formDiv .form .btn {
+    font-size: 12px;
+  }
+  .resetpassPage .container .formDiv .form .btn .icon {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=ResetPass.css.map */

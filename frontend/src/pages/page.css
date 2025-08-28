@@ -1,0 +1,13 @@
+.shadow-right {
+    box-shadow: 2px 0 20px rgba(0, 0, 0, 0.2);
+  }
+
+.primaryColor {
+  color: hsl(207, 73%, 47%);
+}
+.hoverColor {
+  color: hsl(207, 73%, 57%);
+}
+.paleBlue {
+  color: hsl(207, 75%, 89%);
+}

@@ -1,0 +1,460 @@
+[{
+  "_id": {
+    "$oid": "686e24b2ea1beac7ed49f185"
+  },
+  "schedule": {
+    "$oid": "68498556d361e7111dadd77c"
+  },
+  "student": {
+    "$oid": "684e65071d262c9a716eb8ab"
+  },
+  "time": "15.13.36",
+  "status": "hadir",
+  "date": {
+    "$date": "2025-07-09T08:13:38.972Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T08:13:38.972Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:44.129Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e24b2ea1beac7ed49f188"
+  },
+  "schedule": {
+    "$oid": "68498556d361e7111dadd77c"
+  },
+  "student": {
+    "$oid": "684e65071d262c9a716eb8ac"
+  },
+  "time": "18.17.43",
+  "status": "sakit",
+  "date": {
+    "$date": "2025-07-09T08:13:38.991Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T08:13:38.991Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:44.146Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e24b2ea1beac7ed49f18b"
+  },
+  "schedule": {
+    "$oid": "68498556d361e7111dadd77c"
+  },
+  "student": {
+    "$oid": "684e68511d262c9a716eb9a2"
+  },
+  "time": "15.13.36",
+  "status": "tidak hadir",
+  "date": {
+    "$date": "2025-07-09T08:13:38.996Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T08:13:38.996Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:44.149Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e24b3ea1beac7ed49f18e"
+  },
+  "schedule": {
+    "$oid": "68498556d361e7111dadd77c"
+  },
+  "student": {
+    "$oid": "684e712f1d262c9a716ebd0b"
+  },
+  "time": "15.13.37",
+  "status": "tidak hadir",
+  "date": {
+    "$date": "2025-07-09T08:13:39.001Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T08:13:39.001Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:44.151Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e24b3ea1beac7ed49f191"
+  },
+  "schedule": {
+    "$oid": "68498556d361e7111dadd77c"
+  },
+  "student": {
+    "$oid": "684e712f1d262c9a716ebd0c"
+  },
+  "time": "15.13.38",
+  "status": "tidak hadir",
+  "date": {
+    "$date": "2025-07-09T08:13:39.008Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T08:13:39.008Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:44.153Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e24b3ea1beac7ed49f195"
+  },
+  "schedule": {
+    "$oid": "68498720d361e7111dadd85a"
+  },
+  "student": {
+    "$oid": "684e65071d262c9a716eb8ab"
+  },
+  "time": "15.13.36",
+  "status": "hadir",
+  "date": {
+    "$date": "2025-07-09T08:13:39.016Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T08:13:39.016Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:44.129Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e24b3ea1beac7ed49f198"
+  },
+  "schedule": {
+    "$oid": "68498720d361e7111dadd85a"
+  },
+  "student": {
+    "$oid": "684e65071d262c9a716eb8ac"
+  },
+  "time": "18.17.43",
+  "status": "sakit",
+  "date": {
+    "$date": "2025-07-09T08:13:39.021Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T08:13:39.021Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:44.146Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e24b3ea1beac7ed49f19b"
+  },
+  "schedule": {
+    "$oid": "68498720d361e7111dadd85a"
+  },
+  "student": {
+    "$oid": "684e68511d262c9a716eb9a2"
+  },
+  "time": "15.13.36",
+  "status": "tidak hadir",
+  "date": {
+    "$date": "2025-07-09T08:13:39.028Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T08:13:39.028Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:44.149Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e24b3ea1beac7ed49f19e"
+  },
+  "schedule": {
+    "$oid": "68498720d361e7111dadd85a"
+  },
+  "student": {
+    "$oid": "684e712f1d262c9a716ebd0b"
+  },
+  "time": "15.13.37",
+  "status": "tidak hadir",
+  "date": {
+    "$date": "2025-07-09T08:13:39.039Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T08:13:39.039Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:44.151Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e24b3ea1beac7ed49f1a1"
+  },
+  "schedule": {
+    "$oid": "68498720d361e7111dadd85a"
+  },
+  "student": {
+    "$oid": "684e712f1d262c9a716ebd0c"
+  },
+  "time": "15.13.38",
+  "status": "tidak hadir",
+  "date": {
+    "$date": "2025-07-09T08:13:39.046Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T08:13:39.046Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:44.153Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e24b3ea1beac7ed49f1a5"
+  },
+  "schedule": {
+    "$oid": "6849873ed361e7111dadd87f"
+  },
+  "student": {
+    "$oid": "684e65071d262c9a716eb8ab"
+  },
+  "time": "15.13.36",
+  "status": "hadir",
+  "date": {
+    "$date": "2025-07-09T08:13:39.055Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T08:13:39.055Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:44.129Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e24b3ea1beac7ed49f1a8"
+  },
+  "schedule": {
+    "$oid": "6849873ed361e7111dadd87f"
+  },
+  "student": {
+    "$oid": "684e65071d262c9a716eb8ac"
+  },
+  "time": "18.17.43",
+  "status": "sakit",
+  "date": {
+    "$date": "2025-07-09T08:13:39.064Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T08:13:39.064Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:44.146Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e24b3ea1beac7ed49f1ab"
+  },
+  "schedule": {
+    "$oid": "6849873ed361e7111dadd87f"
+  },
+  "student": {
+    "$oid": "684e68511d262c9a716eb9a2"
+  },
+  "time": "15.13.36",
+  "status": "tidak hadir",
+  "date": {
+    "$date": "2025-07-09T08:13:39.070Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T08:13:39.070Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:44.149Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e24b3ea1beac7ed49f1ae"
+  },
+  "schedule": {
+    "$oid": "6849873ed361e7111dadd87f"
+  },
+  "student": {
+    "$oid": "684e712f1d262c9a716ebd0b"
+  },
+  "time": "15.13.37",
+  "status": "tidak hadir",
+  "date": {
+    "$date": "2025-07-09T08:13:39.077Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T08:13:39.077Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:44.151Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e24b3ea1beac7ed49f1b1"
+  },
+  "schedule": {
+    "$oid": "6849873ed361e7111dadd87f"
+  },
+  "student": {
+    "$oid": "684e712f1d262c9a716ebd0c"
+  },
+  "time": "15.13.38",
+  "status": "tidak hadir",
+  "date": {
+    "$date": "2025-07-09T08:13:39.083Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T08:13:39.083Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:44.153Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e3a5e30c53fa14e9f8eee"
+  },
+  "schedule": {
+    "$oid": "6849860ed361e7111dadd835"
+  },
+  "student": {
+    "$oid": "684e65071d262c9a716eb8ab"
+  },
+  "time": "16.46.00",
+  "status": "tidak hadir",
+  "date": {
+    "$date": "2025-07-09T09:46:06.590Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T09:46:06.590Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:49.477Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e3a5e30c53fa14e9f8ef1"
+  },
+  "schedule": {
+    "$oid": "6849860ed361e7111dadd835"
+  },
+  "student": {
+    "$oid": "684e65071d262c9a716eb8ac"
+  },
+  "time": "18.17.48",
+  "status": "sakit",
+  "date": {
+    "$date": "2025-07-09T09:46:06.603Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T09:46:06.603Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:49.480Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e3a5e30c53fa14e9f8ef4"
+  },
+  "schedule": {
+    "$oid": "6849860ed361e7111dadd835"
+  },
+  "student": {
+    "$oid": "684e68511d262c9a716eb9a2"
+  },
+  "time": "16.46.02",
+  "status": "hadir",
+  "date": {
+    "$date": "2025-07-09T09:46:06.609Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T09:46:06.609Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:49.482Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e3a5e30c53fa14e9f8ef7"
+  },
+  "schedule": {
+    "$oid": "6849860ed361e7111dadd835"
+  },
+  "student": {
+    "$oid": "684e712f1d262c9a716ebd0b"
+  },
+  "time": "16.46.03",
+  "status": "hadir",
+  "date": {
+    "$date": "2025-07-09T09:46:06.615Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T09:46:06.615Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:49.486Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686e3a5e30c53fa14e9f8efa"
+  },
+  "schedule": {
+    "$oid": "6849860ed361e7111dadd835"
+  },
+  "student": {
+    "$oid": "684e712f1d262c9a716ebd0c"
+  },
+  "time": "16.46.04",
+  "status": "hadir",
+  "date": {
+    "$date": "2025-07-09T09:46:06.624Z"
+  },
+  "createdAt": {
+    "$date": "2025-07-09T09:46:06.624Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-09T11:17:49.488Z"
+  },
+  "__v": 0
+}]

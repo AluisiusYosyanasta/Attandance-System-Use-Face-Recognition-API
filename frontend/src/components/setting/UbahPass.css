@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --primaryColor: hsl(207, 73%, 47%);
+  --hoverColor: hsl(207, 73%, 37%);
+  --paleBlue: hsl(207, 75%, 89%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --greyText: hsl(0, 0%, 75%);
+  --bgColor: hsl(113, 11%, 85%);
+  --inputColor: hsl(330, 12%, 97%);
+  --biggestFontsize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+html {
+  font-size: 90%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.icon {
+  font-size: var(--h2FontSize);
+  cursor: pointer;
+}
+
+img,
+video {
+  height: auto;
+  width: 100%;
+}
+
+.message {
+  display: none;
+}
+
+.showMessage {
+  display: block;
+  color: var(--whiteColor);
+  padding: 10px;
+  background: rgb(255, 0, 0);
+  border-radius: 3px;
+  text-align: center;
+  animation: shake 1s ease-in-out;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  75% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  color: var(--greyText);
+}
+
+.btn .icon {
+  margin-left: 0.5rem;
+}
+
+.btn:hover {
+  color: var(--primaryColor);
+  background: var(--paleBlue);
+}
+
+.inputDiv .icon {
+  color: var(--greyText);
+}
+.inputDiv input {
+  background: none;
+  outline: none;
+  border: none;
+  width: 200px;
+}
+.inputDiv label {
+  color: var(--blackColor);
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0.5rem 0;
+  display: block;
+}
+.inputDiv select {
+  padding: 0.5rem 1rem;
+  background-color: var(--inputColor);
+  outline: none;
+  border: 1px solid var(--greyText);
+  border-radius: 10px;
+  width: 100%;
+  font-size: 14px;
+  color: var(--blackColor);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.inputDiv select:focus {
+  border-color: var(--primaryColor);
+  box-shadow: 0 0 5px var(--primaryColor);
+}
+.inputDiv .input {
+  gap: 0.5rem;
+  padding: 1rem;
+  background: var(--inputColor);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .registerPage .container {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .registerPage .container .videoDiv .textDiv .title {
+    font-size: 25px;
+  }
+  .registerPage .container .videoDiv .textDiv p {
+    padding: 1rem;
+  }
+  .registerPage .container .videoDiv .footerDiv .text {
+    font-size: 12px;
+  }
+  .registerPage .container .videoDiv .footerDiv .btn {
+    padding: 0.8rem 1.5rem;
+  }
+  .registerPage .container .formDiv .headerDiv {
+    padding: 1.5rem 0;
+  }
+  .registerPage .container .formDiv .headerDiv h3 {
+    font-size: 20px;
+  }
+  .registerPage .container .formDiv .form .inputDiv input {
+    width: 100%;
+    max-width: 200px;
+  }
+  .registerPage .container .formDiv .form .inputDiv select {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .registerPage .container {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+  .registerPage .container .videoDiv {
+    width: 100%;
+  }
+  .registerPage .container .videoDiv .textDiv .title {
+    font-size: 20px;
+  }
+  .registerPage .container .videoDiv .textDiv p {
+    padding: 1rem;
+  }
+  .registerPage .container .videoDiv .footerDiv {
+    height: 40px;
+  }
+  .registerPage .container .videoDiv .footerDiv .text {
+    font-size: 12px;
+  }
+  .registerPage .container .videoDiv .footerDiv .btn {
+    font-size: 10px;
+    height: 30px;
+    padding: 0.4rem 1.5rem;
+  }
+  .registerPage .container .formDiv {
+    gap: 1rem;
+    transform: translateY(-0.5rem);
+  }
+  .registerPage .container .formDiv .headerDiv {
+    padding: 1rem 0;
+  }
+  .registerPage .container .formDiv .headerDiv h3 {
+    font-size: 20px;
+  }
+  .registerPage .container .formDiv .form {
+    gap: 0.5rem;
+  }
+  .registerPage .container .formDiv .form .inputDiv input {
+    width: 100%;
+  }
+  .registerPage .container .formDiv .form .inputDiv select {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 340px) {
+  .registerPage .container {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+  .registerPage .container .videoDiv {
+    width: 100%;
+  }
+  .registerPage .container .videoDiv .textDiv .title {
+    font-size: 18px;
+  }
+  .registerPage .container .videoDiv .textDiv p {
+    font-size: 12px;
+    padding: 1rem;
+  }
+  .registerPage .container .videoDiv .footerDiv {
+    height: 30px;
+  }
+  .registerPage .container .videoDiv .footerDiv .text {
+    font-size: 12px;
+  }
+  .registerPage .container .videoDiv .footerDiv .btn {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+    padding: 0.4rem 1.5rem;
+  }
+  .registerPage .container .formDiv {
+    gap: 1rem;
+    transform: translateY(-0.5rem);
+  }
+  .registerPage .container .formDiv .headerDiv {
+    padding: 1rem 0;
+  }
+  .registerPage .container .formDiv .headerDiv img {
+    width: 80px;
+  }
+  .registerPage .container .formDiv .headerDiv h3 {
+    font-size: 20px;
+  }
+  .registerPage .container .formDiv .form {
+    gap: 0.5rem;
+  }
+  .registerPage .container .formDiv .form .inputDiv input {
+    width: 100%;
+  }
+  .registerPage .container .formDiv .form .inputDiv select {
+    width: 100%;
+  }
+}/*# sourceMappingURL=UbahPass.css.map */

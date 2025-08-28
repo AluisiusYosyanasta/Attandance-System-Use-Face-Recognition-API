@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "68497a97cb7ba55f3d8bac04"
+  },
+  "room_name": "1",
+  "edu_level": "SD",
+  "guruId": {
+    "$oid": "6849732cab10fec02b728925"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T12:46:15.236Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T12:46:15.236Z"
+  },
+  "__v": 0,
+  "school_year": "2024/2025"
+},
+{
+  "_id": {
+    "$oid": "68497aa2cb7ba55f3d8bac21"
+  },
+  "room_name": "2",
+  "edu_level": "SD",
+  "guruId": {
+    "$oid": "68497808ab10fec02b728a47"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T12:46:26.456Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T12:46:26.456Z"
+  },
+  "__v": 0,
+  "school_year": "2024/2025"
+},
+{
+  "_id": {
+    "$oid": "68497ad7cb7ba55f3d8bac3e"
+  },
+  "room_name": "3",
+  "edu_level": "SD",
+  "guruId": {
+    "$oid": "68497388ab10fec02b728935"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T12:47:19.739Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T12:47:19.739Z"
+  },
+  "__v": 0,
+  "school_year": "2024/2025"
+},
+{
+  "_id": {
+    "$oid": "68497af3cb7ba55f3d8bac7b"
+  },
+  "room_name": "4",
+  "edu_level": "SD",
+  "guruId": {
+    "$oid": "68497526ab10fec02b72895d"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T12:47:47.125Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T12:47:47.125Z"
+  },
+  "__v": 0,
+  "school_year": "2024/2025"
+},
+{
+  "_id": {
+    "$oid": "68497b01cb7ba55f3d8bac98"
+  },
+  "room_name": "5",
+  "edu_level": "SD",
+  "guruId": {
+    "$oid": "68497637ab10fec02b728988"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T12:48:01.524Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T12:48:01.524Z"
+  },
+  "__v": 0,
+  "school_year": "2024/2025"
+},
+{
+  "_id": {
+    "$oid": "68497b0ccb7ba55f3d8bacb5"
+  },
+  "room_name": "6",
+  "edu_level": "SD",
+  "guruId": {
+    "$oid": "6849767cab10fec02b72899b"
+  },
+  "createdAt": {
+    "$date": "2025-06-11T12:48:12.022Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-11T12:48:12.022Z"
+  },
+  "__v": 0,
+  "school_year": "2024/2025"
+}]
